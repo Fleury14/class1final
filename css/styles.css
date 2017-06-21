@@ -58,7 +58,7 @@
 .banner-text {
     display: inline-block;
     color: white;
-    margin-left: 40%;
+    margin-left: 45%;
     margin-top: 56.5px;
     font-family: 'Alegreya', serif;
 }
@@ -70,7 +70,7 @@
 .index-mainbody {
     width: 100%;
     height: 100%;
-    border: 1px solid black;
+
 }
 
 .intro-text {
@@ -144,7 +144,7 @@
 
 
 .gateway-container {
-    width: 22.5%;
+    width: 30%;
     height: 30px;
     margin: 0 auto;
     min-width: 250px;
@@ -177,6 +177,7 @@
     margin-left: 20px;
     box-shadow: 5px 5px #999;
     transition: all 1s;
+    color: #FFCb47;
 }
 
 .index-button:hover {
@@ -242,6 +243,23 @@
     float: right;
 }
 
+.overwatch-img-left {
+    background-image: url(../img/ow1-300.jpg);
+    border-radius: 20%;
+    float: left;
+    width: 300px;
+    height: 169px;
+}
+
+.overwatch-img-right {
+    background-image: url(../img/ow2-300.jpg);
+    background-size: cover;
+    border-radius: 20%;
+    float: right;
+    width: 300px;
+    height: 169px;
+}
+
 .overwatch-row p {
     color: black;
     clear: both;
@@ -249,6 +267,7 @@
     font-size: 18px;
     font-family: "Play", sans-serif;
     width: 40%;
+    display: inline-block;
 }
 
 /* End main body Styles */
@@ -306,10 +325,10 @@
 .social-icon-top {
     height: 50px;
     width: 50px;
-    margin: 0 auto;
+    
     background: radial-gradient(#4a5043, #FFCB47, #4a5043);
     border-radius: 50%;
-    
+    float: right;
 }
 
 .social-icon-left {
@@ -320,9 +339,17 @@
     border-radius: 50%;
 }
 
-.social-icon-right {
-    height: 50px;
-    width: 50px;
-    float: right;
-    background: radial-gradient(#4a5043, #FFCB47, #4a5043);
-    border-radius: 50%;
+.social-middle {
+    width: 66%;
+    height: 100%;
+    border-radius: 0%;
+    background: linear-gradient(#4a5043, #FFCB47, #4a5043);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Alegreya", serif;
+    margin: 0 auto;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: 20px;
+}
