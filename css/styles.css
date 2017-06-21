@@ -46,9 +46,13 @@
 
     height: 150px;
     width: 100%;
-    background: #9ac2c9;
-    background: linear-gradient(to bottom right, #8AA1B1, #9ac2c9, #b9dac2);
+    background-image: url("../img/nac2010.jpg");
+    background-size: cover;
+    background-position: 0% 15%;
+}
 
+.banner-image h1 {
+    background-color: rgba(100, 100, 100, .8);
 }
 
 .banner-text {
@@ -65,134 +69,193 @@
 
 .index-mainbody {
     width: 100%;
-    height: 1150px;
+    height: 100%;
     border: 1px solid black;
+}
+
+.intro-text {
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    margin: 30px 25px;
+    
+}
+
+.lucky-container {
+    width: 75%;
+    clear: both;
+    height: 360px;
+    margin: 0 auto;
+}
+
+.header-container {
+    height: 30px;
+    width: 100%;
+}
+
+.lucky-header {
+    background: #4a5043;
+    width: 30%;
+    margin: 0 auto;
+    height: 30px;
+    text-align: center;
+  
+}
+
+.lucky-header i {
+    color: #FFCB47; 
+}
+
+.lucky-header h4 {
+
+    margin: 0px 10px;
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+    color: #FFCB47;
+    display: inline;
+}
+
+.lucky-paw {
+    height: 30px;
+    display: inline-block;
+    float: left;
+    
+}
+
+.lucky-paw-right {
+    height: 30px;
+    display: inline-block;
+    float: right;
+}
+
+.lucky-pic-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.lucky-pic-right {
+    float: right;
+    margin-left: 20px;
+}
+
+.lucky-text {
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+}
+
+
+.gateway-container {
+    width: 22.5%;
+    height: 30px;
+    margin: 0 auto;
+    min-width: 250px;
+}
+
+.gateway-header {
+    font-family: 'Alegreya', serif;
+    text-align: center;
+    font-size: 24px;
+    background-color: #4a5043;
+    color: #FFCB47;
+    height: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.gateway-col {
+    width: 50%;
+    height: 300px;
+    float: left;
+    font-family: 'Play', sans-serif;
+    margin-top: 30px;
+}
+
+.index-button {
+    background-color: #4a5043;
+    width: 200px;
+    height: 30px;
+    border: 0px;
+    margin-left: 20px;
+    box-shadow: 5px 5px #999;
+    transition: all 1s;
+}
+
+.index-button:hover {
+    background-color: #85907a;
+}
+
+.index-button a {
+    color: #FFCB47;
+    text-decoration: none;
+}
+
+.gateway-map {
+    float: right;
+    margin-right: 25px;
+}
+
+.gateway-text {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 18px;
+    width: 75%;
+}
+
+.overwatch-container {
+    clear: both;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.overwatch-header-cont {
+    width: 22.5%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: #4a5043;
+}
+
+.overwatch-container h4 {
+    font-family: 'Alegreya', serif;
+    text-align: center;
+    font-size: 24px;
+    color: #ffcb47;
+    display: inline;
+    padding: 0px 50px;
+    
+}
+
+.overwatch-row {
+    height: 100%;
+    margin: 50px auto;
+}
+
+.overwatch-row-mid {
+    width: 50%;
+    height: 30px;
+    margin: 50px auto;
+}
+
+.over-button-left {
+    float: left;
+}
+
+.over-button-right {
+    float: right;
+}
+
+.overwatch-row p {
+    color: black;
+    clear: both;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: "Play", sans-serif;
+    width: 40%;
 }
 
 /* End main body Styles */
 
-/* Begin main body (about) styles */
-
-.about-mainbody {
-    width: 100%;
-    height: 1150px;
-    border: 1px solid black;
-}
-
-.about-box-1 {
-    width: 35%;
-    height: 480px;
-    margin-left: 9.9%;
-    border: 1px solid black;
-    margin-top: 50px;
-    float: left;
-    
-   
-}
-
-.about-box-1 h2 {
-    color: black;
-    text-align: center;
-    margin: 5px 0px;
-    background-color: #9ac2c9;
-    
-    
-    
-}
-
-.about-iconleft {
-    height: 180px;
-    width: 180px;
-    border: 1px solid red;
-    margin: 20px;
-    display: inline-block;
-    float: left;
-}
-
-.about-iconright {
-    height: 180px;
-    width: 180px;
-    margin: 20px;
-    float: right;
-    border: 1px solid red;
-}
-
-.about-bodytext-left {
-    color: black;
-    font-size: 18px;
-    margin: 20px;
-    font-family: "Play", sans-serif;
-
-}
-
-.about-bodytext-right {
-    color: black;
-    font-size: 18px;
-    font-family: "Play", sans-serif;
-    margin-left: 20px;
-}    
 
 
-/* End main body (about) styles */
 
-/* Begin main body (contact) styles */
-
-.contact-mainbody {
-    width: 100%;
-    height: 1150px;
-    
-}
-
-.contact-row-1 {
-    height: 150px;
-    width: 780px;
-    margin: 0 auto;
-    padding-top: 30px;
-    
-}
-
-.contact-box-1 {
-    height: 50px;
-    width: 50px;
-    float: left;
-}
-
-.contact-box-1 .fa {
-    font-size: 50px;
-    color: #8aa1b1;
-    text-align: center;
-}
-
-.contact-box-1 .fa:hover {
-    color: #b9d8c2;
-}
-
-.contact-body-1 {
-    height: 150px;
-    width: 700px;
-    float: right;
-    font-family: 'Alegreya', serif;
-    
-}
-
-.contact-body-1 p {
-    margin-top: 0px;
-    font-size: 24px;
-}
-
-.wufoo-form-container {
-    width: 50%;
-    border: 3px solid #8aa1b1;
-    margin: 0 auto;
-    border-radius: 5%;
-    padding: 10px;
-    
-    
-    
-    
-}
-
-/* End main body (contact) styles */
 
 /*Begin footer Styles */
 

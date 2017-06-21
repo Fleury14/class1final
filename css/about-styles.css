@@ -1,0 +1,91 @@
+/* Begin main body (about) styles */
+
+.about-mainbody {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.about-column {
+    width: 48%;
+    float: left;
+}
+
+.about-column-right {
+    width: 48%;
+    float: right;
+}
+
+.about-box-1 {
+    width: 90%;
+    height: 480px;
+    margin-left: 10%;
+    height: 100%;
+    margin-top: 50px;
+    
+   
+    font-family: "Alegreya", serif;
+   
+}
+
+.about-box-1 h2 {
+    color: #ffcb47;
+    text-align: center;
+    margin: 5px 0px;
+    background: linear-gradient(to right, #4a5043, #4e8d07);
+    
+    
+    
+}
+
+.about-iconleft {
+    height: 180px;
+    width: 180px;
+    transition: all 1s;
+    margin: 20px;
+    display: inline-block;
+    float: left;
+}
+
+.about-iconright {
+    height: 180px;
+    width: 180px;
+    margin: 20px;
+    float: right;
+
+    transition: all 1s;
+}
+
+.fgc:hover {
+    height: 250px;
+    width: 500px;
+}
+
+.threedogs {
+    background-image: url(../img/3dogs.png);
+    background-size: cover;
+    background-position: -20px;
+}
+
+.hockey {
+    background-image: url(../img/jrhockey.png);
+    background-size: cover;
+}
+
+.about-bodytext-left {
+    color: black;
+    font-size: 18px;
+    margin: 20px;
+    font-family: "Play", sans-serif;
+
+}
+
+.about-bodytext-right {
+    color: black;
+    font-size: 18px;
+    font-family: "Play", sans-serif;
+    margin-left: 20px;
+}    
+
+
+/* End main body (about) styles */
